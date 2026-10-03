@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Adopt a Pet - PetAdopt</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">
+                🐾 PetAdopt
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pets.html">Pets</a></li>
+                <li><a href="adoption.html" class="active">Adopt</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <button class="login-btn" onclick="showLogin()">
+                Login / Register
+            </button>
+
+        </nav>
+    </header>
+
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <h1>Adopt a Pet</h1>
+        <p>Fill in the form below to start your adoption journey.</p>
+    </section>
+
+
+    <!-- Adoption Form -->
+    <section class="form-section">
+
+        <div class="form-container">
+
+            <h2>Adoption Application</h2>
+
+            <p class="form-description">
+                Please provide your details and tell us why you would like to adopt.
+            </p>
+
+            <form id="adoptionForm">
+
+                <!-- Selected Pet -->
+                <div class="form-group">
+                    <label for="selectedPet">Selected Pet</label>
+
+                    <input
+                        type="text"
+                        id="selectedPet"
+                        name="selectedPet"
+                        placeholder="Select a pet from the Pets page"
+                        readonly
+                        required
+                    >
+                </div>
+
+
+                <!-- Name -->
+                <div class="form-group">
+                    <label for="adopterName">Full Name</label>
+
+                    <input
+                        type="text"
+                        id="adopterName"
+                        name="adopterName"
+                        placeholder="Enter your full name"
+                        required
+                    >
+                </div>
+
+
+                <!-- Email -->
+                <div class="form-group">
+                    <label for="email">Email</label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter your email"
+                        required
+                    >
+                </div>
+
+
+                <!-- Phone -->
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+
+                    <input
+                        type="tel"
+                        id="phone"
+                        name="phone"
+                        placeholder="Enter your phone number"
+                        required
+                    >
+                </div>
+
+
+                <!-- Address -->
+                <div class="form-group">
+                    <label for="address">Address</label>
+
+                    <textarea
+                        id="address"
+                        name="address"
+                        rows="4"
+                        placeholder="Enter your address"
+                        required
+                    ></textarea>
+                </div>
+
+
+                <!-- Reason -->
+                <div class="form-group">
+                    <label for="reason">Why do you want to adopt this pet?</label>
+
+                    <textarea
+                        id="reason"
+                        name="reason"
+                        rows="5"
+                        placeholder="Tell us why you want to adopt this pet"
+                        required
+                    ></textarea>
+                </div>
+
+
+                <!-- Submit -->
+                <button type="submit" class="submit-btn">
+                    Submit Adoption Application
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <div class="footer-content">
+
+            <div>
+                <h3>🐾 PetAdopt</h3>
+
+                <p>
+                    Connecting loving families with pets looking for a home.
+                </p>
+            </div>
+
+            <div>
+                <h3>Quick Links</h3>
+
+                <a href="index.html">Home</a>
+                <a href="pets.html">Pets</a>
+                <a href="adoption.html">Adopt</a>
+            </div>
+
+            <div>
+                <h3>Contact</h3>
+
+                <p>Email: petadopt@gmail.com</p>
+                <p>Phone: +91 98765 43210</p>
+            </div>
+
+        </div>
+
+        <p class="copyright">
+            © 2026 PetAdopt. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>

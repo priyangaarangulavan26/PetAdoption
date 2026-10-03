@@ -1,0 +1,7 @@
+backend/target/
+backend/.mvn/wrapper/maven-wrapper.jar
+
+.vscode/
+.idea/
+
+backend/src/main/resources/application.properties

@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PetAdopt - Find Your New Best Friend</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">
+                🐾 PetAdopt
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="pets.html">Pets</a></li>
+                <li><a href="adoption.html">Adopt</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <button class="login-btn" onclick="showLogin()">
+                Login / Register
+            </button>
+
+        </nav>
+    </header>
+
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <h1>Find Your New Best Friend 🐾</h1>
+
+            <p>
+                Give a loving pet a forever home.
+                Find your perfect companion and make a difference today.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="pets.html" class="primary-btn">
+                    Find a Pet
+                </a>
+
+                <a href="about.html" class="secondary-btn">
+                    Learn More
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="welcome">
+
+        <h2>Welcome to PetAdopt</h2>
+
+        <p>
+            PetAdopt is a simple pet adoption platform that helps
+            people find loving dogs and cats looking for a forever home.
+        </p>
+
+    </section>
+
+
+    <section class="featured-pets">
+
+        <div class="section-title">
+
+            <h2>Meet Our Pets 🐶🐱</h2>
+
+            <p>
+                Some of our lovely pets waiting for their new family.
+            </p>
+
+        </div>
+
+
+        <div class="pets-container">
+
+
+            <div class="pet-card">
+
+                <img src="images/chitti.jpeg" alt="Chitti">
+
+                <div class="pet-info">
+
+                    <h2>Chitti</h2>
+
+                    <p>
+                        Friendly and playful dog looking for a loving home.
+                    </p>
+
+                    <button
+                        class="adopt-btn"
+                        onclick="selectPet('Chitti')">
+                        Adopt Now
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div class="pet-card">
+
+                <img src="images/rockey.jpeg" alt="Rockey">
+
+                <div class="pet-info">
+
+                    <h2>Rockey</h2>
+
+                    <p>
+                        Energetic and loyal dog who loves playing outdoors.
+                    </p>
+
+                    <button
+                        class="adopt-btn"
+                        onclick="selectPet('Rockey')">
+                        Adopt Now
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div class="pet-card">
+
+                <img src="images/luna.jpeg" alt="Luna">
+
+                <div class="pet-info">
+
+                    <h2>Luna</h2>
+
+                    <p>
+                        Calm and affectionate cat looking for a peaceful home.
+                    </p>
+
+                    <button
+                        class="adopt-btn"
+                        onclick="selectPet('Luna')">
+                        Adopt Now
+                    </button>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="view-all">
+
+            <a href="pets.html" class="primary-btn">
+                View All Pets
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <section class="why-us">
+
+        <div class="section-title">
+
+            <h2>Why Choose PetAdopt?</h2>
+
+            <p>
+                We make pet adoption simple and meaningful.
+            </p>
+
+        </div>
+
+
+        <div class="features">
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    🐾
+                </div>
+
+                <h3>Find Your Companion</h3>
+
+                <p>
+                    Browse different pets and find the one
+                    that matches your family.
+                </p>
+
+            </div>
+
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    ❤️
+                </div>
+
+                <h3>Give Them a Home</h3>
+
+                <p>
+                    Provide a safe, caring and loving forever home
+                    for a pet in need.
+                </p>
+
+            </div>
+
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    🏠
+                </div>
+
+                <h3>Simple Adoption</h3>
+
+                <p>
+                    Submit your adoption details through our
+                    simple online application.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="cta">
+
+        <h2>
+            Ready to Find Your New Best Friend?
+        </h2>
+
+        <p>
+            Start your adoption journey today.
+        </p>
+
+        <a href="pets.html" class="primary-btn">
+            Browse Pets
+        </a>
+
+    </section>
+
+
+    <footer>
+
+        <p>
+            © 2026 PetAdopt. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Us - PetAdopt</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">
+                🐾 PetAdopt
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pets.html">Pets</a></li>
+                <li><a href="adoption.html">Adopt</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+
+            <button class="login-btn" onclick="showLogin()">
+                Login / Register
+            </button>
+
+        </nav>
+    </header>
+
+
+    <!-- Page Header -->
+    <section class="page-header">
+
+        <h1>Contact Us 📞</h1>
+
+        <p>
+            Have a question? We would love to hear from you.
+        </p>
+
+    </section>
+
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+
+        <div class="contact-container">
+
+
+            <!-- Contact Information -->
+            <div class="contact-info">
+
+                <h2>Get in Touch</h2>
+
+                <p>
+                    If you have any questions about pet adoption,
+                    feel free to contact us.
+                </p>
+
+
+                <div class="contact-item">
+
+                    <div class="contact-icon">
+                        📧
+                    </div>
+
+                    <div>
+                        <h3>Email</h3>
+                        <p>support@petadopt.com</p>
+                    </div>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <div class="contact-icon">
+                        📞
+                    </div>
+
+                    <div>
+                        <h3>Phone</h3>
+                        <p>+91 98765 43210</p>
+                    </div>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <div class="contact-icon">
+                        📍
+                    </div>
+
+                    <div>
+                        <h3>Location</h3>
+                        <p>Tamil Nadu, India</p>
+                    </div>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <div class="contact-icon">
+                        🕒
+                    </div>
+
+                    <div>
+                        <h3>Working Hours</h3>
+                        <p>Monday - Saturday</p>
+                        <p>9:00 AM - 6:00 PM</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Contact Form -->
+            <div class="contact-form">
+
+                <h2>Send Us a Message</h2>
+
+                <form id="contactForm">
+
+
+                    <div class="form-group">
+
+                        <label for="contactName">
+                            Full Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="contactName"
+                            name="contactName"
+                            placeholder="Enter your name"
+                            required>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="contactEmail">
+                            Email Address
+                        </label>
+
+                        <input
+                            type="email"
+                            id="contactEmail"
+                            name="contactEmail"
+                            placeholder="Enter your email"
+                            required>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="subject">
+                            Subject
+                        </label>
+
+                        <input
+                            type="text"
+                            id="subject"
+                            name="subject"
+                            placeholder="Enter subject"
+                            required>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="message">
+                            Message
+                        </label>
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="6"
+                            placeholder="Write your message here..."
+                            required></textarea>
+
+                    </div>
+
+
+                    <button
+                        type="submit"
+                        class="submit-btn">
+                        Send Message
+                    </button>
+
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+
+        <div class="section-title">
+
+            <h2>Frequently Asked Questions</h2>
+
+        </div>
+
+
+        <div class="faq-container">
+
+
+            <div class="faq-card">
+
+                <h3>How can I adopt a pet?</h3>
+
+                <p>
+                    Visit our Pets page, select a pet and
+                    fill out the adoption application form.
+                </p>
+
+            </div>
+
+
+            <div class="faq-card">
+
+                <h3>What pets are available?</h3>
+
+                <p>
+                    We currently have dogs and cats available
+                    for adoption.
+                </p>
+
+            </div>
+
+
+            <div class="faq-card">
+
+                <h3>Can I contact you before adopting?</h3>
+
+                <p>
+                    Yes. You can use the contact form above
+                    to send us your questions.
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            © 2026 PetAdopt. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

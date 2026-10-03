@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Our Pets - PetAdopt</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">
+                🐾 PetAdopt
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pets.html" class="active">Pets</a></li>
+                <li><a href="adoption.html">Adopt</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <button class="login-btn" onclick="showLogin()">
+                Login / Register
+            </button>
+
+        </nav>
+    </header>
+
+
+    <!-- Page Heading -->
+    <section class="page-header">
+        <h1>Our Pets</h1>
+        <p>Find your perfect companion and give them a loving home.</p>
+    </section>
+
+
+    <!-- Pets Section -->
+    <section class="pets-section">
+
+        <h2>Available Pets</h2>
+
+        <!-- Pets will be loaded from MySQL through Spring Boot -->
+        <div class="pet-container" id="petContainer"></div>
+
+    </section>
+
+
+    <!-- Call To Action -->
+    <section class="cta-section">
+
+        <h2>Ready to Adopt?</h2>
+
+        <p>
+            Give a loving pet a second chance and make them part of your family.
+        </p>
+
+        <a href="adoption.html" class="cta-button">
+            Start Adoption
+        </a>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <div class="footer-content">
+
+            <div>
+                <h3>🐾 PetAdopt</h3>
+                <p>
+                    Connecting loving families with pets looking for a home.
+                </p>
+            </div>
+
+            <div>
+                <h3>Quick Links</h3>
+                <a href="index.html">Home</a>
+                <a href="pets.html">Pets</a>
+                <a href="adoption.html">Adopt</a>
+            </div>
+
+            <div>
+                <h3>Contact</h3>
+                <p>Email: petadopt@gmail.com</p>
+                <p>Phone: +91 98765 43210</p>
+            </div>
+
+        </div>
+
+        <p class="copyright">
+            © 2026 PetAdopt. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
